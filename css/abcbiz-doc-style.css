@@ -155,9 +155,11 @@ header h1 {
 .brand_menu a:hover {
   color: #b038f5;
 }
-.intro-theme img {
+.abcbiz-addons-intro img {
   width: 100%;
-  margin-bottom: -2px;
+  margin-bottom: -6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 .theme_doc {
   margin: 0 0 50px;
@@ -201,6 +203,7 @@ header h1 {
   white-space: nowrap;
   border-bottom: 2px solid #f8f9f8;
   text-overflow: ellipsis;
+  letter-spacing: 1px;
 }
 .abcbiz-faq-categories a::before, .abcbiz-faq-categories a::after {
   /* plus icon on the right */
@@ -557,6 +560,10 @@ header h1 {
   box-shadow: 0 0px 7px rgba(108, 125, 142, 0.2);
   border: 1px solid #e0e0e0;
   margin-bottom: 20px;
+}
+
+.abcbiz-faq-content b, .abcbiz-faq-content strong {
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 768px) {
